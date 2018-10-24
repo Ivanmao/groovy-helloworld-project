@@ -13,9 +13,9 @@ class Calibrator{
 }
 
 // 这种方式是错误的，误以为是创建匿名内部类
-def calibrator = new Calibrator(){
+/*def calibrator = new Calibrator(){
     println "the calculation provided"
-}
+}*/
 
 // 这种方式是正确的
 def calibrator2 = new Calibrator({
